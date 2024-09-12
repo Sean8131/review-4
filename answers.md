@@ -15,16 +15,16 @@
 * Number
 
 ## Answer 4:
-10
+10 (Lines run in order from top to bottom)
 
 ## Answer 5:
 * True
-* False
+* False (but true if ==) (=== means equal value and same type)
 * False
 * True
 
 ## Answer 6:
-C
+C (Got it wrong. Answer is B. Went wrong on !isHoliday). <Not isHoliday> = false evaluates to true.
 
 ## Answer 7:
 console.log(car.year);
@@ -39,6 +39,12 @@ let concatenate = (firstWord, secondWord) => {
   console.log(`${firstWord} ${secondWord}`);
 }
 concatenate("Sean", "Selby");
+
+Got it wrong. Answer from the debrief below:
+
+function concatenate(firstWord, secondWord) {
+  return `${firstWord} ${secondWord}`
+}
 
 ## Answer 10:
 "Hello, Javascript!" will be logged to the console.
